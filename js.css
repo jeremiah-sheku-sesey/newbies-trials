@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: #333;
+}
+nav{
+    position: relative;
+    background-color: rgb(22, 1, 11);
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    z-index: 1;
+    border: 5px solid black;
+  }
+
+  nav .menu {
+      max-width: 1400px;
+      background-color: red;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+  }
+
+  .menu ul li {
+      display: inline-flex;
+      list-style: none;
+     
+  }
+
+  .menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+
+  .anotherDiv {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      margin: 1em;
+  }
